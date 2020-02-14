@@ -1,0 +1,48 @@
+body {
+	background-color: rgb(19,19,22);
+	color: white;
+	font-weight: bold;
+}
+.row, .row2 {
+	display: flex; 	
+	background-color: rgb(19,19,22);
+	border-radius: 10px;
+box-shadow: 0 0 10px rgb(229,61,17);
+	
+}
+.column, .column2 {
+	flex: 33.33%;
+    padding: 15px;
+		
+}
+.top, ol {
+	background-color: rgb(19,19,22);
+	border-radius: 10px;
+
+box-shadow: 0 0 10px rgb(229,61,17);
+}
+ h1,h2 {
+	font-family: "Arial", sans-serif;
+	color: rgb(106, 115, 146 );
+	
+		
+}
+
+a {
+	color: red;
+	font-weight: bold;
+	text-decoration: none;
+
+	
+}
+.last {
+	font-weight: bold;
+}
+p::first-letter{
+	font-size: xx-large;
+}
+
+a:hover {
+	color: blue;
+	text-decoration: underline;
+}
